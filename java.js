@@ -1,6 +1,8 @@
 onload = () => {
     const c = setTimeout(() => {
-      document.body.classList.remove("not-loaded");
-      clearTimeout(c);
+      const sound = document.getElementById('song')
+      sound.play()
     }, 1000);
   };
+
+
