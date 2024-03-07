@@ -130,7 +130,7 @@ body {
   transform: translate(-50%, -100%);
   width: 8vmin;
   height: 8vmin;
-  background-color: #6bf0ff;
+  background-color: #f22626;
   filter: blur(10vmin);
 }
 .flower__leaf {
@@ -140,7 +140,7 @@ body {
   width: 8vmin;
   height: 11vmin;
   border-radius: 51% 49% 47% 53%/44% 45% 55% 69%;
-  background-color: #65e6cc;
+  background-color: #f84444;
   background-image: linear-gradient(to top, #40bbab, #a7ffee);
   transform-origin: bottom center;
   opacity: 0.9;
@@ -204,6 +204,20 @@ body {
   border-bottom-left-radius: var(--h);
   background-image: linear-gradient(to top, rgba(20, 117, 122, 0.4), #39c6d6);
 }
+
+.birthday-message {
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 50px; /* Tamaño de fuente más grande */
+    text-align: center;
+    color: white; /* Color del texto blanco */
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.5); /* Sombra del texto */
+    -webkit-text-stroke-width: 1px; /* Ancho del borde */
+    -webkit-text-stroke-color: black; /* Color del borde */
+  }
+
 .flower__line__leaf--1 {
   transform: rotate(70deg) rotateY(30deg);
 }
